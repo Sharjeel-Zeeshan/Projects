@@ -1,0 +1,228 @@
+/* Top-navbar css*/
+.top-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.shop {
+    border: 2px solid #442015;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.shop:hover {
+    background-color: #442015;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .ccontainer {
+        display: block;
+    }
+}
+
+/* main navbar css */
+@media (min-width: 990px) {
+    .navbar {
+        height: 150px;
+    }
+}
+
+nav {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+}
+
+.dropdown-item {
+    color: #442015;
+}
+
+.dropdown-item:hover {
+    background-color: #442015;
+    color: white;
+}
+
+.nav-item {
+    color: black;
+}
+
+.nav-item:hover {
+    background-color: #442015;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.burger {
+    height: 350px;
+}
+
+@media (max-width:768px) {
+    .burger {
+        height: 25vh;
+    }
+}
+
+/**Section Carousel Css**/
+.carousel-item {
+    width: 100%;
+    height: 75vh;
+    padding: 2px;
+}
+
+.third {
+    height: 29vh;
+}
+
+/* Title and papragraph css */
+.title {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    color: #442015;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Cards Css Starts Here */
+.cards {
+    margin-top: 5px;
+}
+
+.card-body {
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.card-body:hover {
+    background-color: #442015;
+    color: white;
+}
+
+.card-text {
+    color: black;
+}
+
+.card-text:hover {
+    color: white;
+    background-color: #442015;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card img {
+    transition: 0.25s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+/* Footer CSS */
+.footer {
+    background-color: #404041;
+}
+
+.no-bullets a {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.icon {
+    color: #442015;
+    font-size: 20px;
+}
+
+.location {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+.phone {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.number {
+    font-size: 16px;
+    color: black;
+}
+
+.email {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.gmail {
+    font-size: 16px;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    display: flex;
+    margin-left: 100px;
+}
+
+.social-icon i {
+    margin-left: 20px;
+}
+
+.first {
+    height: 261px;
+}
+
+.bottom-bar {
+    background-color: #442015;
+    color: white;
+    font-weight: bold;
+}

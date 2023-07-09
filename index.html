@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--Meta Tags-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sharjeel Zeeshan">
+    <meta name="keywords" content="cakes,bakery items,">
+    <title>Village Bakery</title>
+    <!--Favicon-->
+    <link rel="icon" href="./images/Village.png" type="image/x-icon">
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!--External CSS-->
+    <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>
+
+    <!--header starts here-->
+    <header>
+        <!--Top-navbar Starts here-->
+        <div class="container-fluid">
+            <div class="top-navbar d-flex justify-content-end">
+                <div class="item ">
+                    <i class="bi bi-telephone-fill box-icon"></i>
+                    <span>18002523</span>
+                </div>
+                <div class="item ">
+                    <a class=shop href="#">Shop Online</a>
+                </div>
+                <div class="item">
+                    <a class=shop href="#">Store Locator</a>
+                </div>
+                <div class="item">
+                    <a class=shop href="#">Download Brochure</a>
+                </div>
+                <div class="item">
+                    <i class="bi bi-cart3 cart box-icon"></i>
+                </div>
+            </div>
+        </div> <!--Top-navbar Ends here-->
+
+        <!--Main navbar Starts here-->
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/Untitled design.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto ">
+                        <li class="nav-item px-2">
+                            <a class="nav-link " aria-current="page" href="/home">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Product
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">All Cakes</a></li>
+                                <li><a class="dropdown-item" href="#">Cold Cake</a></li>
+                                <li><a class="dropdown-item" href="#">Butter Cream Cake</a></li>
+                                <li><a class="dropdown-item" href="#">Photo Cake</a></li>
+                                <li><a class="dropdown-item" href="#">Fountain Cake</a></li>
+                            </ul>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- Main navbar Ends here-->
+    </header><!--header Ends here-->
+
+    <!--Carousel starts here-->
+    <div class="container">
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner burger">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./images/01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/02.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/03.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div><!--Carousel Ends here-->
+
+    <!--Section starts here-->
+    <section class="my-section ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <!-- first column for Catousel -->
+                    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-interval="1000">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active" data-bs-interval="1000">
+                                <img src="./images/choco.jpg" class="d-block w-100 " alt="1 slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Chocolate Cake</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="./images/cake.jpg" class="d-block w-100" alt="2 slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Vinella & Cherry Cake</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="./images/cup.jpg" class="d-block w-100" alt="3 image">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cup Cakes</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6  ">
+                    <!-- second column -->
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <!-- nested first column -->
+                            <img src="./images/first.jpg" class="d-block w-100 first ">
+                        </div>
+                        <div class="col-md-6 ">
+                            <!-- nested second column -->
+                            <img src="./images/second.jpg" class="d-block w-100">
+                        </div>
+                        <div class="col-md-12 mt-3 ">
+                            <!-- third column -->
+                            <img src="./images/slide.jpg" class="d-block w-100 third">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--Section Ends here-->
+
+    <!-- title and Paragraph -->
+    <div class="container title">
+        <h2 class="text-center">Featured Categories</h2>
+        <p class="text-justify">Discover a vast collection of bakery supplies at Village Bakery. Our goal is to inspire
+            and motivate
+            bakers
+            and chefs to create extraordinary recipes. Explore our featured category for cake decorating supplies
+            and
+            seasonal products that are loved by our customers. Trust our recommendations and find the perfect
+            ingredients and tools to enhance your baking journey.</p>
+    </div><!-- title and Paragraph -->
+
+    <!--Cards Section starts here-->
+    <Section>
+        <div class="container cards ">
+            <div class="row">
+                <!-- First column -->
+                <div class="col-lg-3 col-12">
+                    <div class="card border-dark">
+                        <img src="./images/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">CUPCAKE & MINI CAKE</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second column -->
+                <div class="col-lg-3 col-12">
+                    <div class="card border-dark">
+                        <img src="./images/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">FILLINGS & TOPPINGS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third column -->
+                <div class="col-lg-3 col-12">
+                    <div class="card border-dark">
+                        <img src="./images/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">CHOCOLATE MOULDS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fourth column -->
+                <div class="col-lg-3 col-12">
+                    <div class="card border-dark">
+                        <img src="./images/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">PIPING BAGS & TIPS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section> <!--Cards Section Ends here-->
+
+    <!-- Footer starts Here -->
+    <footer class=" mt-5">
+        <div class="container-fluid footer py-4">
+            <div class="row ">
+
+                <div class="col-md-3">
+                    <img src="./images/Untitled_design-removebg-preview.png " class="">
+                </div>
+                <div class="col-md-3">
+                    <ul class="no-bullets">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <span class="icon">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </span>
+                    <span class="location">LOCATION</span>
+                    <p>Gulbarga,karnatka</p>
+                </div>
+                <div class="col-md-3 ">
+                    <span class="icon">
+                        <i class="bi bi-phone-fill"></i>
+                    </span>
+                    <span class="phone">
+                        PhoneNumber
+                        </sapn>
+                        <div class="number">
+                            8880461716
+                        </div>
+                        <sapn class="icon">
+                            <i class="bi bi-envelope-fill"></i>
+                    </span>
+                    <sapn class="email">
+                        Email
+                    </sapn>
+                    <div class="gmail">
+                        sharjeel108@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <div class="col-md-3">
+                        <div class="container social">
+                            <div class="social-icon">
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-twitter"></i>
+                                <i class="bi bi-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer> <!-- Footer Ends Here -->
+
+    <div class="container-fluid pt-2 text-center bottom-bar"><!--Bottom Bar-->
+        <div class="row">
+            <p>All Rights Reserved | © Copyright 2023 Village Bakery</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
